@@ -24,7 +24,7 @@ MqttClient mqttClient(wifiClient);
 // Here are the credentials for MQTT broker
 const char broker[] = "mqtt-dashboard.com";
 int        port     = 1883;
-const char topic[]  = "ekam-wave";
+const char topic[]  = "wave";
 
 void setup() {
 
